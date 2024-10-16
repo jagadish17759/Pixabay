@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.navOut {
+  overflow: hidden;
+  background-color: #283593; 
+  height: 70px;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar p {
+  font-size: 25px;
+  margin-left: 20px;
+  color: #FFFFFF; 
+}
+
+.navD {
+  justify-content: space-between;
+  padding: 18px 10px 0px 0px;
+  margin-left: 420px;
+}
+
+button {
+  padding: 10px;
+  background-color: #FF6F61; 
+  color: white;
+}
+
+.navD button {
+  font-size: 15px;
+  margin-right: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.navbar button:nth-child(1):hover {
+  background-color: #FF8A65; 
+  color: #FFFFFF; 
+  transform: scale(1.1);
+}
+
+.navbar button:hover {
+  background-color: #FF3D00; 
+  color: white;
+  transform: scale(1.1);
+}
+
+.outDiv {
+  background-image: linear-gradient(#BBDEFB, #90CAF9); 
+}
+
+.inDiv {
+  display: block;
+  text-align: left;
+  height: 70px;
+  background-image: linear-gradient(to left, rgba(30, 30, 30, 0.05)); 
+}
+
+.inDiv input {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-left: 33%;
+  align-self: center;
+  height: 40px;
+  border-radius: 10px;
+  width: 500px;
+  padding-left: 20px;
+  border: 1px solid #ccc; 
+}
+
+.inImages {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inImages img {
+  flex: 20%;
+  height: 300px;
+  width: auto; 
+  padding: 5px;
+}
+
+#ld {
+  height: 60px;
+  width: 100%;
+  background-color: #F5F5F5; 
+  margin-top: auto;
+  bottom: 0;
+}
+
+#ld p {
+  color: #757575;
+  position: relative;
+  top: 20px;
+  left: 120px;
+  width: 50%;
+}
+
+.logMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #EDE7F6; 
+}
+
+#allatTitle {
+  margin-bottom: 20px;
+  font-size: 36px;
+  color: #333; 
+  text-align: center;
+}
+
+.formContainer {
+  background-color: #FFFFFF; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+#loginTitle {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333; 
+}
+
+#uName, #psw {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#loginSub {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#loginSub:hover {
+  background-color: #388E3C; 
+}
+
+#lastCh {
+  text-align: center;
+  padding: 30px;
+}
+
+#registerLink {
+  color: #FF6F61; 
+  text-decoration: none;
+}
+
+#registerLink:hover {
+  text-decoration: underline;
+}
+
+#allatRegister {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333; 
+}
+
+.RegisterMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 650px; 
+  background-color: #F9F9F9; 
+  flex-direction: column;
+}
+
+#rform {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+#registerTitle {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  color: #333; 
+  margin-bottom: 20px;
+}
+
+#registerTable {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#registerTable td {
+  padding: 10px;
+}
+
+#registerTable input[type="text"],
+#registerTable input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc; 
+}
+
+#registerSubmit {
+  width: 100%;
+  background-color: #007BFF; 
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#registerSubmit:hover {
+  background-color: #0056b3; 
+}
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f8d7da;
+  color: #721c24;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.error-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.error-image {
+  width: 250px;
+  margin: 1rem 0;
+  border-radius: 50%;
+}
+
+.error-message {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.error-actions {
+  display: flex;
+  gap: 1rem;
+} 
